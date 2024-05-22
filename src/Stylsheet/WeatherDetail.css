@@ -1,0 +1,52 @@
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.imsge {
+  width: 160px;
+  height: 160px;
+}
+.temp,.location,.country{
+    font-size: 35px;
+    margin-top: 5px;
+    color: #333;
+    text-transform: uppercase;
+    text-align: center;
+}
+.temp{
+    font-weight: 500;
+}
+.location{
+    color: #ffe53e;
+    font-weight: 400;
+    font-size: 40px;
+}
+.country{
+    font-size: 18px;
+    color: #888;
+    font-weight: 500;
+}
+.cord{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.cord div {
+    display: flex;
+    flex-direction: column;
+}
+.cord div span{
+    font-size: 14px;
+}
+
+.cord div span:nth-child(2){
+    font-size: 18px;
+    font-weight: bold;
+    color: #666;
+    padding: 5px;
+}
